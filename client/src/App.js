@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
-const API_URL = 'http://localhost:5001/tasks';
+const API_URL = "https://task-manager-bkss.onrender.com";
 
 function App() {
   const [tasks, setTasks] = useState([]);
